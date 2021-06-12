@@ -10,16 +10,8 @@ public class ProdutoController {
     
     
     //Cadastrar
-        public static Boolean cadastrar(Produto produto){
-            for(Produto produtoCadastrado: produtos){
-            if (produtoCadastrado.getNomeProduto().equals(produto.getNomeProduto())){
-                return false;
-            } 
-        }
-        
-        produtos.add(produto);
-        return true;
-
+        public static void cadastrar(Produto produto){
+        	produtos.add(produto);
         }
     
     //Listar todos os produtos
