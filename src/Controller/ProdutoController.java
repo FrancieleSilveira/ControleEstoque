@@ -60,7 +60,7 @@ public class ProdutoController {
                     if(novoNome != null){
                         produtoCadastrado.setNomeProduto(novoNome);
                     }
-                    if(novoCodigo != null){
+                    if(novaCategoria != null){
                         produtoCadastrado.setCategoriaProduto(novaCategoria);
                     }
                     return true;
