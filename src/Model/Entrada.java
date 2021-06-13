@@ -63,7 +63,7 @@ public class Entrada {
         return custoUnidade;
     }
 
-    public void setCustoUnidade(int custoUnidade) {
+    public void setCustoUnidade(double custoUnidade) {
         this.custoUnidade = custoUnidade;
     }
 

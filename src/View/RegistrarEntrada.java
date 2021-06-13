@@ -39,7 +39,7 @@ public class RegistrarEntrada {
                     entrada.setQuantidade(print.nextInt());
 
                     System.out.println("Digite o valor unitário do produto");
-                    entrada.setCustoUnidade(print.nextInt());
+                    entrada.setCustoUnidade(print.nextDouble());
 
                     if (EntradaController.registrar(entrada)){
                         System.out.println("Novos produtos foram adicionados ao estoque");
