@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Entrada {
 	
-	private double id;
+	private int id;
     private Date dataCompra;
     private Produto produto;
     private Fornecedor fornecedor;
@@ -23,7 +23,7 @@ public class Entrada {
         return id;
     }
 
-    public void setId(double id) {
+    public void setId(int id) {
         this.id = id;
     }
         

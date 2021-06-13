@@ -19,10 +19,10 @@ public class DeletarFornecedor {
 		fornecedor = FornecedorController.buscarPorCnpj(cnpj);
 		if (fornecedor != null){
 			if(FornecedorController.deletar(cnpj)){
-				System.out.println("Fornecedor excluído com sucesso");
+				System.out.println("\nFornecedor excluído com sucesso");
 			}
 		} else{
-			System.out.println("Este fornecedor não existe");
+			System.out.println("\nEste fornecedor não existe");
 		}
 	}
 }
