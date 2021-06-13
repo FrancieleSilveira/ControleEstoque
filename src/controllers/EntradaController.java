@@ -1,8 +1,9 @@
-package Controller;
+package controllers;
 
 import java.util.ArrayList;
-import Model.Produto;
-import Model.Entrada;
+
+import models.Entrada;
+import models.Produto;
 
 public class EntradaController {
 

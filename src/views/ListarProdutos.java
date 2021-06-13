@@ -1,7 +1,7 @@
-package View;
+package views;
 
-import Controller.ProdutoController;
-import Model.Produto;
+import controllers.ProdutoController;
+import models.Produto;
 
 public class ListarProdutos {
 

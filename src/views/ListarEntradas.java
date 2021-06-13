@@ -1,7 +1,7 @@
-package View;
+package views;
 
-import Controller.EntradaController;
-import Model.Entrada;
+import controllers.EntradaController;
+import models.Entrada;
 
 public class ListarEntradas {
 	public static void renderizar(){

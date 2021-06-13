@@ -1,7 +1,7 @@
-package View;
+package views;
 
-import Model.Fornecedor;
-import Controller.FornecedorController;
+import controllers.FornecedorController;
+import models.Fornecedor;
 
 public class ListarFornecedores {
 

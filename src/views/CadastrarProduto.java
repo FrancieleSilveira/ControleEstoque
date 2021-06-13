@@ -1,8 +1,9 @@
-package View;
+package views;
 
-import Controller.ProdutoController;
 import java.util.Scanner;
-import Model.Produto;
+
+import controllers.ProdutoController;
+import models.Produto;
 
 public class CadastrarProduto {
 

@@ -1,8 +1,9 @@
-package View;
+package views;
 
-import Controller.EntradaController;
 import java.util.Scanner;
-import Model.Entrada;
+
+import controllers.EntradaController;
+import models.Entrada;
 
 public class DeletarEntrada {
 

@@ -1,8 +1,9 @@
-package Controller;
+package controllers;
 
 import java.util.ArrayList;
-import Model.Produto;
-import Model.Saida;
+
+import models.Produto;
+import models.Saida;
 
 public class SaidaController {
 	

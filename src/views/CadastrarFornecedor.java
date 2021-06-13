@@ -1,8 +1,9 @@
-package View;
+package views;
 
-import Controller.FornecedorController;
 import java.util.Scanner;
-import Model.Fornecedor;
+
+import controllers.FornecedorController;
+import models.Fornecedor;
 
 public class CadastrarFornecedor {
 	

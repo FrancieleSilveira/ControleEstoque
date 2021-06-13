@@ -1,7 +1,7 @@
-package View;
+package views;
 
-import Controller.SaidaController;
-import Model.Saida;
+import controllers.SaidaController;
+import models.Saida;
 
 public class ListarSaidas {
 	

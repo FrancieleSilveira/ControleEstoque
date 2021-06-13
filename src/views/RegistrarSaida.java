@@ -1,10 +1,11 @@
-package View;
+package views;
 
-import Controller.ProdutoController;
-import Controller.SaidaController;
 import java.util.Scanner;
-import Model.Saida;
-import Model.Produto;
+
+import controllers.ProdutoController;
+import controllers.SaidaController;
+import models.Produto;
+import models.Saida;
 
 
 public class RegistrarSaida {

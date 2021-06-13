@@ -1,7 +1,8 @@
-package Controller;
+package controllers;
 
 import java.util.ArrayList;
-import Model.Fornecedor;
+
+import models.Fornecedor;
 
 public class FornecedorController {
 

@@ -1,11 +1,11 @@
-package View;
+package views;
 
-import Controller.EntradaController;
-import Controller.ProdutoController;
-import Controller.SaidaController;
-import Model.Entrada;
-import Model.Produto;
-import Model.Saida;
+import controllers.EntradaController;
+import controllers.ProdutoController;
+import controllers.SaidaController;
+import models.Entrada;
+import models.Produto;
+import models.Saida;
 
 public class MostrarControleEstoque {
 	

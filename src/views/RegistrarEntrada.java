@@ -1,12 +1,13 @@
-package View;
+package views;
 
-import Controller.EntradaController;
-import Controller.FornecedorController;
-import Controller.ProdutoController;
 import java.util.Scanner;
-import Model.Entrada;
-import Model.Fornecedor;
-import Model.Produto;
+
+import controllers.EntradaController;
+import controllers.FornecedorController;
+import controllers.ProdutoController;
+import models.Entrada;
+import models.Fornecedor;
+import models.Produto;
 
 public class RegistrarEntrada {
 	
