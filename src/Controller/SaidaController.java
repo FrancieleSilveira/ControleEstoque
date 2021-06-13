@@ -34,7 +34,7 @@ public class SaidaController {
     
     //Buscar por Id
     
-    public static Saida buscarPorId(Double id){
+    public static Saida buscarPorId(int id){
        for(Saida saidaCadastrada: saidas){
            if ((saidaCadastrada.getId()) == (id)){
                return saidaCadastrada;

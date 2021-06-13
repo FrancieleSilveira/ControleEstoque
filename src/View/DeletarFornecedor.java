@@ -7,7 +7,6 @@ import Model.Fornecedor;
 public class DeletarFornecedor {
 
 	private static Scanner print = new Scanner(System.in);
-	private static String cnpj;
 	private static Fornecedor fornecedor;
 
 	public static void renderizar(){
@@ -15,7 +14,7 @@ public class DeletarFornecedor {
 		fornecedor = new Fornecedor();
 		   
 		System.out.println("\nDigite o CNPJ do fornecedor que deseja deletar");
-		cnpj = print.next();
+		String cnpj = print.next();
 		fornecedor = FornecedorController.buscarPorCnpj(cnpj);
 		if (fornecedor != null){
 			if(FornecedorController.deletar(cnpj)){
